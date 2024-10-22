@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Event Share Home</h1>
+  <p>
+    Welcome to Event Share, a website developed by
+    <em>Mozilla Developer Network</em>!
+  </p>
+  <h2>Dynamic content</h2>
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>Events:</strong> {{ num_event }}</li>
+    <li><strong>Users:</strong> {{ num_users}}</li>
+  </ul>
+{% endblock %}
